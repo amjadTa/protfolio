@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 import { LINKEDIN_URL } from 'data/personal';
@@ -34,7 +33,7 @@ const Intro = () => {
       <Slide direction="right">
         <Profile>
           <ProfileImg
-            src='/assets/images/Amjad.jpeg'
+            src={process.env.PUBLIC_URL + '/assets/images/Amjad.jpeg'}
             alt="profile"
           />
         </Profile>
