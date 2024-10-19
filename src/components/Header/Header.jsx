@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Container>
         <Logo>
-            <LogoTitle>Amjad Tarif</LogoTitle>
+            <LogoTitle>A.T.Protfolio</LogoTitle>
         </Logo>
         <NavContainer>
             <Nav><NavUrl href="#home">Home</NavUrl></Nav>

@@ -15,7 +15,7 @@ export const PROFISSIONAL_ABOUT = [
 export const PERSONAL_ABOUT = [
     `
         I love collaborating with teams, creating a positive and productive atmosphere.
-        I enjoy working with people, solving complex problems, and always bring enthusiasm and a sense of fun to every project I’m a part of.
+        I enjoy working with people, solving complex problems, and always bring enthusiasm and a sense of fun to every project I’m part of.
         And I have volunteer in several organization
     `
 ];

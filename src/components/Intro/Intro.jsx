@@ -11,7 +11,7 @@ const Intro = () => {
       <Slide direction="left">
         <TextContainer>
           <SubTitle>
-            Hello <span className="green">I'am</span>
+            Hello <span className="green">I'm</span>
           </SubTitle>
           <Title className="green">Amjad Tarif</Title>
           <JobTitle>{JOB_TITLE}</JobTitle>
