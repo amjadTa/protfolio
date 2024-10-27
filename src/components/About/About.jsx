@@ -22,6 +22,7 @@ const About = () => {
               <DynamicBoldString key={index} text={item} />
             )
           })}
+          <br />
           <SkillsIcons>
             {Icons.map((icon, index) => {
               return (

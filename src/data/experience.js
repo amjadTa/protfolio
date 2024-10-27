@@ -18,7 +18,7 @@ export const EXPERIENCE = [
         company: 'Medisim',
         url: 'https://www.medisim.co.il/#page-Home-slider',
         description: [
-            'Implemented a management system for cow farms, Maximized efficiency in information presentation.',
+            'Implemented a management system for cow farms, maximizing efficiency in information presentation.',
             `Worked with <b>Angular, NodeJS, MongoDB, Python, typescript</b> and <b>Leaflet Map.</b>`
         ]
     }

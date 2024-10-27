@@ -13,7 +13,9 @@ function App() {
         <Intro />
       </HeaderContainer>
       <About />
+      <br />
       <Experience />
+      <br />
       <Footer />
     </Container>
   );

@@ -10,6 +10,7 @@ import { DEATILS, LINKEDIN_URL } from 'data/personal';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Button from 'utils/Button';
 
 const SERVICE = 'service_76bix8h';
 const TEMPLATE = 'template_r3wlzvg';
@@ -142,7 +143,8 @@ const Footer = () => {
               </span>
               <textarea value={message} cols="30" rows="10" placeholder="Message..." onChange={(e) => { setMessage(e.target.value) }}></textarea>
             </div>
-            <button onClick={handleSendEmail}>Submit</button>
+            {/* <button onClick={handleSendEmail}>Submit</button> */}
+            <Button text='Submit' onClick={handleSendEmail} />
           </form>
         </Slide>
       </Form>
@@ -330,19 +332,6 @@ const Form = styled.div`
       .messageIcon {
         align-items: flex-start;
         padding-top: 0.5rem;
-      }
-    }
-
-    button {
-      width: 5rem;
-      height: 1.8rem;
-      background-color: #01be96;
-      border: none;
-      border-radius: 5px;
-      filter: drop-shadow(0px 4px 5px #01be9551);
-      cursor: pointer;
-      :hover {
-        filter: drop-shadow(0px 6px 9px #01be9551);
       }
     }
   }
